@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "xx_web",
+            "script": "./build/server.js",
+            "cwd": "./",
+            "instances": 1,
+            "instance_var": "NODE_APP_INSTANCE",
+            "exec_mode": "cluster"
+        }
+    ]
+}

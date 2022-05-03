@@ -1,0 +1,15 @@
+{
+	"web_svr_port":9089,
+	"web_svr_root":"../../webfile/",
+	"update_svr_port":9090,
+	"gm_svr_port":9091,
+	"count_svr_port":9092,	
+	"count_svr_req":"http://127.0.0.1:9092",
+	"account_db": {
+        "host": "192.168.10.26",
+        "port": 3306,
+        "user": "root",
+        "password": "xxxxxxxxx",
+        "database": "gametrend.game.account.h5slggame"
+    }
+}
