@@ -10,7 +10,7 @@ zlog.getInstance().init('updateSvr');
 let console = zlog.getInstance();
 
 const init = async () => {
-    WebSvr.instance.init(cfg.web_svr_root, cfg.web_svr_port);
+    WebSvr.instance.init(cfg.web_svr_root, cfg.web_svr_port);//TEST
 
 }
 init();
